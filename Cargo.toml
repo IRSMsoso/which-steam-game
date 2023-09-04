@@ -2,6 +2,11 @@
 name = "which-steam-game"
 version = "0.1.0"
 edition = "2021"
+description = "Command line tool to determine which multiplayer/coop steam game you and your friends should play"
+license-file = "LICENSE"
+repository = "https://github.com/IRSMsoso/which-steam-game/tree/main"
+authors = ["Cameron VanderTuig"]
+readme = "README.md"
 include = [
     "steam_api.dll",
     "src/main.rs",
