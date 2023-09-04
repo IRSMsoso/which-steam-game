@@ -7,10 +7,6 @@ license-file = "LICENSE"
 repository = "https://github.com/IRSMsoso/which-steam-game/tree/main"
 authors = ["Cameron VanderTuig"]
 readme = "README.md"
-include = [
-    "steam_api.dll",
-    "src/main.rs",
-]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
