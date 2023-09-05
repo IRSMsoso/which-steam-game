@@ -3,6 +3,6 @@ Command line tool to determine which multiplayer/coop steam game you and your fr
 
 Install using `cargo install which-steam-game`
 
-I've tested on Windows and Mac and of the two it only works on Windows.
+I've tested successfully on Windows and Mac
 
-It requires the [steamworks sdk](https://partner.steamgames.com/downloads/steamworks_sdk.zip) to be installed where Windows will find the dll.
+It requires the [steamworks sdk](https://partner.steamgames.com/downloads/steamworks_sdk.zip) version 1.54 to be installed where Windows or MacOS will find it
