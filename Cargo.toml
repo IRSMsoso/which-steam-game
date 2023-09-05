@@ -1,6 +1,6 @@
 [package]
 name = "which-steam-game"
-version = "0.2.0"
+version = "0.2.1"
 edition = "2021"
 description = "Command line tool to determine which multiplayer/coop steam game you and your friends should play"
 license-file = "LICENSE"

@@ -10,7 +10,7 @@ fn main() {
     let stdin = io::stdin();
     let mut steam_key = String::new();
     stdin.read_line(&mut steam_key).unwrap();
-    steam_key = steam_key.replace('\n', "");
+    steam_key = steam_key.trim().to_owned();
 
     assert_eq!(
         32,
@@ -33,7 +33,7 @@ fn main() {
     println!("\nEnter the numbers of the friends to include in the search separated by spaces.");
     let mut input = String::new();
     stdin.read_line(&mut input).unwrap();
-    input = input.replace('\n', "");
+    input = input.trim().to_owned();
     let sel_nums: Vec<u8> = input
         .split(' ')
         .map(|num| u8::from_str(num).expect("Cannot parse one of your answers into a valid number"))
